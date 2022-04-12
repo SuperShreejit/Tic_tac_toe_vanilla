@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
+</head>
+  <body>
+    <main class="main">
+      <div class="title">TIC TAC TOE</div>
+      <div class="container" id="board">
+          <div class="box bottom " data-cell></div>
+          <div class="box bottom  left" data-cell></div>
+          <div class="box bottom left " data-cell></div>
+          <div class="box bottom" data-cell></div>
+          <div class="box bottom left" data-cell></div>
+          <div class="box bottom left" data-cell></div>
+          <div class="box" data-cell></div>
+          <div class="box left " data-cell></div>
+          <div class="box left " data-cell></div>
+      </div>
+      <div class="winning-screen" id="winning-screen">
+        <div class="winning-text" id="winning-text"> Wins!</div>
+        <button class="btn" id="restart-btn">Restart</button>
+      </div>
+    </main>
+  </body>
+</html>
